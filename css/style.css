@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#page{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.links a{
+    color: whitesmoke;
+    display: inline-block;
+}
+.links{
+    width: 300px;
+    display: inline-block;
+}
+button{
+    align-items: flex-end;
+    background-color: blue;
+    border: 1px solid red;
+    color: chartreuse;
+}
+h1{
+    display: inline-block;
+    width: 100px;
+}
+.container{
+    background-color: wheat;
+    display: flex;
+    width: 1535px;
+    height: 690px;
+}
+.left{
+    margin-top: 50px;
+    margin-left: 280px;
+    margin-right: 40px;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.map{
+    height: 15px !important;
+    width: 10px !important;
+    display: inline-block !important;
+    margin-left: 0px !important;
+    margin-top: 25px !important;
+}
+.user{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    border: 2px solid teal;
+    font-size: large;
+}
+.user .bar{
+    background-color: teal;
+    height: 45px;
+    width: 100%;
+
+}
+.userPic{
+    display: inline-block;
+    margin-top: -40px;
+    margin-left: 10px;
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+
+}
+.education{
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 2px solid gray;
+    flex-wrap: wrap;
+}
+/* .education .bar{
+    background-color: gray;
+    color: whitesmoke;
+    width: 100%;
+    height: 30px;
+} */
+.gear{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+}
+h2{
+    /* margin-top: 10px; */
+    height: 10px;
+}
+.city{
+    display: inline-block;
+    margin-left: 10px;
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+}
+.map{
+    display: inline-block;
+    margin-left:10px;
+}
+.text{
+    margin-left: 10px;
+}
+.education .bar{
+    background-color: slategray;
+    height: 45px;
+    width: 280px;
+    color:white;
+    font-size: larger;
+}
+.connection{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.dude{
+    margin: 20px 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pics{
+    display: flex;
+}
+.request{
+    width: 250px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.request .bar{
+    background-color: slategray;
+    height: 45px;
+    width: 100%;
+    display: inline-block !important;
+}
+.pics img{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.button{
+    height: 15px !important;
+    width: auto !important;
+}
+.barReq{
+    border:2px solid gray;
+    display: flex;
+    background-color: slategray;
+    justify-content: space-between;
+    font-size: large;
+    color: coral;
+}
+.two{
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 10px;
+    background-color: blueviolet;
+    display: inline-block;
+
+}
+.conReq{
+    display: inline-block;
+}
+.your{
+    width: 250px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+.conBar{
+    border: 2px solid gray;
+    background-color: slategray;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: coral;
+    font-size: large;
+}
+.ed{
+    margin-left: 20px;
+}
+
+.five{
+    margin-top: 0px;
+    background-color: blueviolet;
+    border:5px solid gray;
+    display: inline-block;
+    border-radius: 50%;
+}
+.view{
+    padding: 10px 5px;
+    border: 1px solid gray;
+}
+.pics{
+    display: flex;
+    /* flex-direction: column; */
+    justify-items: center;
+}
+.pics .button{
+    width: 15px !important;
+    display: inline-block;
+    align-self: flex-end;
+}
+.your .pics{
+    display: inline-block;
+}
+.your .pics img{
+    flex-direction: column !important;
+}
