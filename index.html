@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="./css/js/script.js"></script>
     <title>Profile Page</title>
 </head>
 
@@ -31,7 +32,7 @@
                     <!-- //user navbar -->
                     <div class="bar"></div>
                         <img src="images/Lawrence.jpg" alt="My Pic" class="userPic"/>
-                    <h2>Lawrence Cox</h2>
+                    <h2 id="name">Lawrence Cox</h2>
                     <div class="city">
                         <img src="icons/map-marker.png" alt="map marker" class="map" />
                         <p class="city">Seattle, Wa</p>
@@ -44,7 +45,7 @@
                             Avid reader of all things interesting!
                         </p>
                     </div>
-                    <img src="icons/gear.png" alt="gear" class="gear" /><a href="">edit profile</a>
+                    <img src="icons/gear.png" alt="gear" class="gear" onclick="changeName()"/><a href="" >edit profile</a>
                 </div>
                 <!-- //education container -->
                 <div class="education">
@@ -71,19 +72,19 @@
                         </div>
                         <div>
                             <div class="pics">
-                                <div class="dude">
-                                    <img src="images/todd-s.jpg" alt="" />
+                                <div class="dude" id="todd" data-id="tod">
+                                    <img src="images/todd-s.jpg" alt="" data-id="tod"/>
                                     <p>Todd E</p>
-                                    <img src="icons/accept-circle.png" alt="" class="button" /><img src="icons/close-circle.png"
-                                    alt="" class="button" />
+                                    <img src="icons/accept-circle.png" alt="" class="button" onclick="removeTodd(this)" data-id="tod"/><img src="icons/close-circle.png"
+                                    alt="" class="button" onclick="removeTodd(this)" data-id="tod"/>
                                 </div>
                             </div>
                             <div class="pics">
-                                <div class="dude">
+                                <div class="dude" id="phil" data-id="tod">
                             <img src="images/phil-s.jpg" alt="" />
                             <p>Phil K</p>
-                            <img src="icons/accept-circle.png" alt="" class="button" /><img src="icons/close-circle.png"
-                                alt="" class="button" />
+                            <img src="icons/accept-circle.png" alt="" class="button" onclick="removePhil(this)" data-id="tod"/><img src="icons/close-circle.png"
+                                alt="" class="button" onclick="removePhil(this)" data-id="tod"/>
                                 </div>
                             </div>
 
